@@ -1,0 +1,54 @@
+.NavBar {
+	height: 44px;
+}
+
+.NavBar form {
+	height: 24px;
+	padding-right: 8px;
+	width: 100%;
+}
+
+.NavBar input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: transparent;
+	border: none;
+	color: inherit;
+	font: inherit;
+	padding: 0;
+}
+
+.NavBar input::placeholder {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	color: inherit;
+	font: inherit;
+}
+
+.NavBar .SearchBox {
+	font-size: 14px;
+	padding-top: 4px;
+	height: 20px;
+	width: calc(100% - 30px);
+}
+
+.NavBar .SearchIconBox {
+	float: left;
+	height: 24px;
+	width: 24px;
+}
+
+.NavBar .SearchIconBox:hover {
+	cursor: pointer;
+}
+
+.NavBar .SearchIconBox .SearchIcon {
+	font-size: 18px;
+	left: 6px;
+	position: absolute;
+	top: 1px;
+	transform: rotate(-45deg);
+	width: fit-content;
+}

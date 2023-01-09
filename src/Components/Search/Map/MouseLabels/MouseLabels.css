@@ -1,0 +1,28 @@
+.Map .MouseLabel {
+	clear: left;
+	float: left;
+	margin: 4px 0;
+	position: absolute;
+}
+
+.Map .MouseLabel .Entry {
+	background: white;
+	border-radius: 0.15rem;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.08), -2px -2px 4px rgba(0, 0, 0, 0.08);
+	clear: inherit;
+	float: inherit;
+	margin: 2px 0;
+	max-width: 400px;
+	padding: 4px 8px;
+	width: fit-content;
+}
+
+.Map .MouseLabelBackground {
+	background: rgba(255, 255, 255, 0.8);
+	height: 100%;
+	left: 1px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+}

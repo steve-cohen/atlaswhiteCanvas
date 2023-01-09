@@ -1,0 +1,59 @@
+.NavBar .DropDowns {
+	height: 20px;
+	margin-left: 6px;
+}
+
+.NavBar .DropDowns .DropDown {
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 10px;
+	width: fit-content;
+}
+
+.NavBar .DropDowns .DropDown .Button .Arrow {
+	display: block;
+	float: left;
+	font-size: 16px;
+	height: 20px;
+	width: 5px;
+	text-align: end;
+	transform: rotate(90deg);
+}
+
+.NavBar .DropDowns .DropDown .Button .Label {
+	display: block;
+	float: left;
+	line-height: 20px;
+	padding-right: 5px;
+}
+
+.NavBar .DropDowns .DropDown .Options {
+	background: white;
+	border-radius: 0.2rem;
+	box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.1), -2px 3px 4px rgba(0, 0, 0, 0.1);
+	float: left;
+	line-height: 21px;
+	max-height: calc(100vh - 45px);
+	overflow: scroll;
+	position: absolute;
+	transform: translate(-8px, 20px);
+	min-width: 70px;
+	z-index: 10;
+}
+
+.NavBar .DropDown .Options div {
+	padding: 0 16px 0 8px;
+}
+
+.NavBar .DropDowns .DropDown .Options div:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.NavBar .DropDowns .DropDown .Options div:first-child {
+	padding-top: 4px;
+}
+
+.NavBar .DropDowns .DropDown .Options div:last-child {
+	padding-bottom: 4px;
+}

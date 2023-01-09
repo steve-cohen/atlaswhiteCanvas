@@ -1,0 +1,12 @@
+.Menu {
+	background: white;
+	border-right: 1px solid rgb(212, 217, 219);
+	height: 100vh;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: absolute;
+	top: 0;
+	width: 400px;
+	z-index: 4;
+}

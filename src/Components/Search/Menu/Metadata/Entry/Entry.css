@@ -1,0 +1,47 @@
+.Entry {
+	border-radius: 0.2rem;
+	margin: 1px 3px;
+	padding: 2px 3px;
+}
+
+.Entry:first-of-type {
+	margin-top: 4px;
+}
+
+.Entry:hover {
+	background: rgb(242, 245, 250);
+}
+
+.Entry .Attributions {
+	line-height: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.Entry .Attributions div {
+	display: inline-block;
+	margin-right: 6px;
+}
+
+.Entry .Attributions .Author,
+.Entry .Attributions .AuthorsHidden {
+	color: #004423;
+	margin-right: 3px;
+}
+
+.Entry .Attributions .Citations {
+	color: #004423;
+}
+
+.Entry .Attributions .Author:hover,
+.Entry .Attributions .Citations:hover,
+.Entry .Attributions .Journal:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.Entry .Title {
+	display: block;
+	font-size: 12px;
+	line-height: 14px;
+}

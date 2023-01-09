@@ -1,0 +1,21 @@
+.Entity {
+	padding: 1px 6px 5px 6px;
+}
+
+.Entity .Relationships div {
+	color: #004423;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.Entity .Relationships div:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.Entity .Title {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}

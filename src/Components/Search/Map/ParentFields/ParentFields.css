@@ -1,0 +1,25 @@
+.ParentFields {
+	font-weight: 400;
+	margin: 6px 0 0 8px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 5;
+}
+
+.ParentFields .ParentField {
+	border-radius: 20px;
+	display: inline-block;
+	white-space: nowrap;
+	z-index: 5;
+}
+
+.ParentFields .Arrow {
+	display: inline-block;
+	margin: 0 8px;
+}
+
+.ParentFields .ParentField:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+.Map {
+	height: 100vh;
+	left: 400px;
+	min-width: 400px;
+	position: absolute;
+	top: 0;
+	width: calc(100vw - 400px);
+}

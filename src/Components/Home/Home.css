@@ -1,0 +1,65 @@
+.Home {
+	background: white;
+	font-weight: 300;
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	z-index: 10;
+}
+
+.Home form {
+	border: 1px solid black;
+	border-radius: 32px;
+	left: 50vw;
+	padding: 0 20px;
+	position: absolute;
+	top: 45vh;
+	transform: translate(-50%, -50%);
+	width: 360px;
+}
+
+.Home input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: transparent;
+	border: none;
+	color: black;
+	font: inherit;
+	letter-spacing: 0.1px;
+	padding: 0;
+}
+
+.Home input::placeholder {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	color: inherit;
+	font: inherit;
+}
+
+.Home .SearchBox {
+	font-size: 14px;
+	line-height: 40px;
+	width: calc(100% - 44px);
+}
+
+.Home .SearchIconBox {
+	float: left;
+	line-height: 40px;
+	width: 32px;
+}
+
+.Home .SearchIconBox:hover {
+	cursor: pointer;
+}
+
+.Home .SearchIconBox .SearchIcon {
+	color: black;
+	float: left;
+	font-size: 22px;
+	transform: rotate(-45deg);
+	width: fit-content;
+}
